@@ -25,11 +25,6 @@ func Prepare(protocol protocols.Protocol, outcomes protocols.OutcomeDeltas, demo
 		ContributedAt:  MonthPrecision(),
 	}
 
-	for _, se := range outcomes.LabDeltas {
-		contribution.SideEffects = nil // side effects set separately
-		_ = se
-	}
-
 	contribution.Hash = ContributionHash(contribution)
 
 	if err := ValidateNoLeaks(contribution); err != nil {
