@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/verum-research/sdk/anonymize"
+	"github.com/teslashibe/verum-research-sdk/anonymize"
 )
 
 type Client struct {

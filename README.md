@@ -20,7 +20,7 @@ Trust requires auditability. The anonymization pipeline is the single path to co
 ## Install
 
 ```bash
-go get github.com/verum-research/sdk
+go get github.com/teslashibe/verum-research-sdk
 ```
 
 ## Quick Start
@@ -33,10 +33,10 @@ import (
     "fmt"
     "time"
 
-    "github.com/verum-research/sdk/anonymize"
-    "github.com/verum-research/sdk/compounds"
-    "github.com/verum-research/sdk/contribute"
-    "github.com/verum-research/sdk/protocols"
+    "github.com/teslashibe/verum-research-sdk/anonymize"
+    "github.com/teslashibe/verum-research-sdk/compounds"
+    "github.com/teslashibe/verum-research-sdk/contribute"
+    "github.com/teslashibe/verum-research-sdk/protocols"
 )
 
 func main() {

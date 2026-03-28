@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/verum-research/sdk/stats"
+	"github.com/teslashibe/verum-research-sdk/stats"
 )
 
 func NewReportTemplate(study Study, result stats.StatisticalResult) Report {

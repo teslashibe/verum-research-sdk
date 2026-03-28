@@ -3,8 +3,8 @@ package anonymize
 import (
 	"fmt"
 
-	"github.com/verum-research/sdk/protocols"
-	"github.com/verum-research/sdk/schema"
+	"github.com/teslashibe/verum-research-sdk/protocols"
+	"github.com/teslashibe/verum-research-sdk/schema"
 )
 
 func Prepare(protocol protocols.Protocol, outcomes protocols.OutcomeDeltas, demographics Demographics, config Config) (*AnonymizedContribution, error) {

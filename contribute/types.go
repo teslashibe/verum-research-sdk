@@ -1,8 +1,8 @@
 package contribute
 
 import (
-	"github.com/verum-research/sdk/anonymize"
-	"github.com/verum-research/sdk/stats"
+	"github.com/teslashibe/verum-research-sdk/anonymize"
+	"github.com/teslashibe/verum-research-sdk/stats"
 )
 
 type SubmitRequest struct {

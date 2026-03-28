@@ -4,7 +4,7 @@ import (
 	"math"
 	"sort"
 
-	"github.com/verum-research/sdk/anonymize"
+	"github.com/teslashibe/verum-research-sdk/anonymize"
 )
 
 func AggregateCohort(compoundID, compoundName string, contributions []anonymize.AnonymizedContribution) CohortAnalysis {
